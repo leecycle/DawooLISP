@@ -1,2 +1,48 @@
 # DawooLISP
-AutoCAD and ZWCAD 2024 integrated CAD LISP tools
+
+DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되게 처리하기 위한 통합 LISP 도구 모음입니다. 하나의 배포 파일로 AutoCAD와 ZWCAD 2024를 모두 지원하며, 설치와 업데이트를 간단하게 사용할 수 있도록 구성했습니다.
+
+## 지원 환경
+
+- AutoCAD (Windows)
+- ZWCAD 2024 (Windows)
+- 설치 폴더: `C:\DAWOO\CADLISP`
+
+## 주요 기능
+
+- 토목 도면 작성 및 편집 보조 명령
+- 레이어·색상·블록 정리 기능
+- 치수와 다중지시선 관련 도구
+- 거리와 축척 계산 도구
+- 자주 사용하는 CAD 명령 단축키
+- 프로그램 내 자동 업데이트 확인
+- PDF 도움말 제공
+
+## 설치 방법
+
+1. [Releases](https://github.com/leecycle/DawooLISP/releases/latest)에서 최신 `DawooLISP.*.zip` 파일을 내려받습니다.
+2. 압축을 푼 뒤 `Install_DawooLISP.cmd`를 실행합니다.
+3. AutoCAD 또는 ZWCAD를 다시 시작합니다.
+4. 명령창에서 `DWHELP`를 입력하면 PDF 도움말이 열립니다.
+
+기존 DawooLISP가 설치되어 있으면 설치·업데이트 과정에서 기존 파일을 백업한 뒤 최신 버전으로 교체합니다.
+
+## 최신 버전
+
+현재 배포 버전: **1.0.1**
+
+이번 버전에서는 숫자 및 문자 단축키를 일반 CAD 명령처럼 바로 실행하도록 정리했습니다.
+
+| 단축키 | 실행 명령 |
+|---|---|
+| `DD` | DIST |
+| `XX` | XLINE |
+| `CC` | COPY |
+| `1` | PLINE |
+| `2` | MATCHPROP |
+| `3` | 3DPOLY |
+| `4` | LENGTHEN |
+| `DA` | DIMLINEAR |
+| `DDA` | DIMALIGNED |
+
+> DawooLISP는 AutoCAD와 ZWCAD 2024에서 같은 명령 체계를 사용할 수 있도록 함께 관리됩니다.
