@@ -5,7 +5,7 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 ## 지원 환경
 
 - AutoCAD 2015~2024 (Windows)
-- ZWCAD (Windows)
+- ZWCAD 2021~2024 (Windows)
 - 설치 폴더: `C:\DAWOO\CADLISP`
 
 ## 주요 기능
