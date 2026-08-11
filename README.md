@@ -1,6 +1,6 @@
 # DawooLISP
 
-DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되게 처리하기 위한 통합 LISP 도구 모음입니다. 하나의 배포 파일로 AutoCAD와 ZWCAD 2024를 모두 지원하며, 설치와 업데이트를 간단하게 사용할 수 있도록 구성했습니다.
+DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되게 처리하기 위한 통합 LISP 도구 모음입니다. 하나의 배포 파일로 AutoCAD와 ZWCAD 2024를 모두 지원하며 설치, 자동 로드, 업데이트까지 간편하게 사용할 수 있도록 구성했습니다.
 
 ## 지원 환경
 
@@ -20,18 +20,32 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 
 ## 설치 방법
 
-1. [Releases](https://github.com/leecycle/DawooLISP/releases/latest)에서 최신 `DawooLISP.*.zip` 파일을 내려받습니다.
+1. [Releases](https://github.com/leecycle/DawooLISP/releases/latest)에서 최신 `DawooLISP.*.zip`을 내려받습니다.
 2. 압축을 푼 뒤 `Install_DawooLISP.cmd`를 실행합니다.
 3. AutoCAD 또는 ZWCAD를 다시 시작합니다.
 4. 명령창에서 `DWHELP`를 입력하면 PDF 도움말이 열립니다.
 
-기존 DawooLISP가 설치되어 있으면 설치·업데이트 과정에서 기존 파일을 백업한 뒤 최신 버전으로 교체합니다.
+설치 프로그램은 다음 설정도 자동으로 처리합니다.
+
+- 기존 설치 파일 백업 후 최신 파일로 교체
+- `C:\DAWOO\...`를 CAD의 신뢰할 수 있는 경로에 추가
+- `C:\DAWOO\CADLISP\DawooLISP.lsp`를 APPLOAD 시작하기 세트에 등록
+- AutoCAD와 ZWCAD 사용자 프로파일에 중복 없이 적용
 
 ## 최신 버전
 
-현재 배포 버전: **1.0.1**
+현재 배포 버전: **1.0.2**
 
-이번 버전에서는 숫자 및 문자 단축키를 일반 CAD 명령처럼 바로 실행하도록 정리했습니다.
+### 1.0.2 변경 사항
+
+- 신뢰할 수 있는 경로 자동 등록
+- APPLOAD 시작하기 세트 자동 등록
+- 신규 설치와 기존 버전 자동 업데이트 모두에서 등록 작업 실행
+- AutoCAD와 ZWCAD 2024 프로파일 동시 지원
+- 기존 신뢰 경로와 시작하기 세트 항목 보존
+- 재설치 시 중복 등록 방지
+
+## 기본 단축키
 
 | 단축키 | 실행 명령 |
 |---|---|
