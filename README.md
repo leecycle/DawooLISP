@@ -4,8 +4,8 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 
 ## 지원 환경
 
-- AutoCAD (Windows)
-- ZWCAD 2024 (Windows)
+- AutoCAD 2015~2024 (Windows)
+- ZWCAD (Windows)
 - 설치 폴더: `C:\DAWOO\CADLISP`
 
 ## 주요 기능
@@ -31,32 +31,3 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 - `C:\DAWOO\...`를 CAD의 신뢰할 수 있는 경로에 추가
 - `C:\DAWOO\CADLISP\DawooLISP.lsp`를 APPLOAD 시작하기 세트에 등록
 - AutoCAD와 ZWCAD 사용자 프로파일에 중복 없이 적용
-
-## 최신 버전
-
-현재 배포 버전: **1.0.2**
-
-### 1.0.2 변경 사항
-
-- 신뢰할 수 있는 경로 자동 등록
-- APPLOAD 시작하기 세트 자동 등록
-- 신규 설치와 기존 버전 자동 업데이트 모두에서 등록 작업 실행
-- AutoCAD와 ZWCAD 2024 프로파일 동시 지원
-- 기존 신뢰 경로와 시작하기 세트 항목 보존
-- 재설치 시 중복 등록 방지
-
-## 기본 단축키
-
-| 단축키 | 실행 명령 |
-|---|---|
-| `DD` | DIST |
-| `XX` | XLINE |
-| `CC` | COPY |
-| `1` | PLINE |
-| `2` | MATCHPROP |
-| `3` | 3DPOLY |
-| `4` | LENGTHEN |
-| `DA` | DIMLINEAR |
-| `DDA` | DIMALIGNED |
-
-> DawooLISP는 AutoCAD와 ZWCAD 2024에서 같은 명령 체계를 사용할 수 있도록 함께 관리됩니다.
