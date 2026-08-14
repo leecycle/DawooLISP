@@ -2,6 +2,13 @@
 
 DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되게 처리하기 위한 통합 LISP 도구 모음입니다. 하나의 배포 파일로 AutoCAD와 ZWCAD 2024를 모두 지원하며 설치, 자동 로드, 업데이트까지 간편하게 사용할 수 있도록 구성했습니다.
 
+## 최신 버전
+
+- DawooLISP 1.3.0
+- `DEFLA`에서 Enter 또는 분야 코드를 입력하는 통합 레이어 생성 방식
+- `DEFLA2`, `DEFLAALL` 유지
+- AutoCAD용 VLX 및 ZWCAD 2024용 ZELX 통합 배포
+
 ## 지원 환경
 
 - AutoCAD 2015~2024 (Windows)
