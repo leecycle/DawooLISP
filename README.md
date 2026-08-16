@@ -71,3 +71,6 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 - LISP 원본은 ANSI(CP949) 인코딩을 유지합니다.
 - 배포 ZIP에는 AutoCAD용 VLX와 ZWCAD용 ZELX가 모두 포함되어야 합니다.
 - 문제가 생기면 CAD를 종료한 뒤 마스터 설치본으로 다시 설치하거나 `DWROLLBACK`을 사용하십시오.
+
+
+<!-- Release baseline: v1.4.0 -->
