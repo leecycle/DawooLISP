@@ -18,7 +18,9 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 - AutoCAD와 ZWCAD 자동 판별 및 전용 컴파일 파일 로드
 - 프로그램 내 자동 업데이트와 이전 버전 복원
 - PDF 도움말 및 DawooLISP 메뉴 제공
-- `DWMAP` 수치지도 검색 및 `DWJB` 연속지적도 지번 조회
+- `DWMAP` 수치지도 검색, 지역별 DXF 자동 탐색 및 새 빈 도면 원좌표 결합
+- `DWJB` 연속지적도 지번 조회
+- `CCC` 원좌표 복사 및 `VVV` 원좌표 붙여넣기
 - `DDT` 문자 스타일 선택 입력과 `DEFST` 표준 문자 스타일 정리
 - `DEFST`는 정리 결과를 출력하고 종료하며 일반문자의 DT/TEXT 기본 높이는 2.5
 - `DWJB` 지번 다중지시선 문자는 명령 실행 시점의 현재 문자 스타일 적용
@@ -77,4 +79,4 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 - 배포 ZIP에는 AutoCAD용 VLX와 ZWCAD용 ZELX가 모두 포함되어야 합니다.
 - 문제가 생기면 CAD를 종료한 뒤 마스터 설치본으로 다시 설치하거나 `DWROLLBACK`을 사용하십시오.
 
-<!-- Release baseline: v1.5.6 -->
+<!-- Release baseline: v1.5.8 -->
